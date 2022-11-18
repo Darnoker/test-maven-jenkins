@@ -12,4 +12,13 @@ public class CalculatorTest {
         Assert.assertEquals(expectedResult, result);
     }
 
+    @Test
+    public void testMultiplication() {
+        Calculator calculator = new Calculator();
+        int result = calculator.multiply(2, 3);
+        int expectedResult = 6;
+
+        Assert.assertEquals(expectedResult, result);
+    }
+
 }
