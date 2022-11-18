@@ -7,7 +7,7 @@ public class CalculatorTest {
     public void testAddition() {
         Calculator calculator = new Calculator();
         int result = calculator.add(2, 2);
-        int expectedResult = 4;
+        int expectedResult = 5;
 
         Assert.assertEquals(expectedResult, result);
     }
